@@ -103,7 +103,7 @@ const ModelScroll = () => {
 
 const Features = () => {
     return (
-        <section id='features'>
+        <section id='features' className="container mx-auto">
             <h2>See it all in a new light.</h2>
 
             <Canvas id='f-canvas' camera={{}}>
