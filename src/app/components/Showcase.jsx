@@ -16,8 +16,8 @@ const Showcase = () => {
                     trigger: "#showcase",
                     start: "top top+=100",
                     end: "bottom top",
-                    // scrub: true,
-                    toggleActions: "play reverse",
+                    scrub: true,
+                    // toggleActions: "play  reverse",
                     pin: true,
                 },
             });
