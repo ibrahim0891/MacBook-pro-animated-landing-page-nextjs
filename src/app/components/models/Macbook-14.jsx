@@ -12,7 +12,8 @@ import React, { useEffect } from 'react'
 import { useGLTF, useTexture } from '@react-three/drei'
 import { noChangeParts } from '@/app/constants'
 import { Color } from 'three'  
-import { useMacbookStore } from '@/app/store'
+import useMacbookStore from '@/app/store'
+ 
 
 export default function MacbookModel14(props) {
     const {color } = useMacbookStore()
